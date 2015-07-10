@@ -1,0 +1,25 @@
+{
+  "name": "RebekahsAndMatthewsWedding",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matthewcodes/RebekahsAndMatthewsWedding",
+  "authors": [
+    "Matthew Wilson <matt@mattcodes.co.uk>"
+  ],
+  "description": "website for rebekah and matthews wedding",
+  "main": "index.html",
+  "keywords": [
+    "wedding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "FlipClock": "~0.7.7"
+  }
+}

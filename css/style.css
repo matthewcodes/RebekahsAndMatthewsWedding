@@ -1,0 +1,130 @@
+body {
+  min-height: 200px;
+  background-color: black;
+}
+
+.hero {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
+  background-image: url("../img/photo.jpg");
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0px;
+  z-index: -1;
+  height: 100vh;
+  color: white;
+}
+
+.hero img {
+  margin-top:15vh;
+}
+
+.content {
+  background-color: white;
+  margin-top: 100vh;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.breaker {
+  background-color: white;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.church {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
+  background-image: url("../img/no books.jpg");
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.venue {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
+  background-image: url("../img/carriagerooms.jpg");
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.church p {
+  color: white;
+}
+
+.venue p {
+  color: white;
+}
+
+.address {
+  line-height: 40px;
+}
+
+p {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 60px;
+  color: #7f7e7e;
+}
+
+h1 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 60px;
+  color: #e0a293;
+}
+
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    padding: 12px 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 35%;
+}
+.btn-primary.outline {
+    border: 1px solid #e0a293;;
+    color: #e0a293;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #e0a293;
+    border-color: #e0a293;;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #e0a293;;
+    color: #e0a293;;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
